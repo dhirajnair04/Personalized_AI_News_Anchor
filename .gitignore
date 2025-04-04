@@ -1,0 +1,7 @@
+audio_*.mp3
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+*.msi
