@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import re
 
 def fetch_bbc_news(query='technology'):
-    api_key = "388e2b8703ff9af4477303b5077e13bf"
+    api_key = "YOUR_API_KEY"
     url = f"https://gnews.io/api/v4/search?q={query}&lang=en&token={api_key}"
     res = requests.get(url)
     data = res.json()
