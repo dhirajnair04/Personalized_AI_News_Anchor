@@ -21,13 +21,6 @@ Delivering real-time, AI-generated, personalized news briefings — with natural
 
 ---
 
-## 📸 Demo
-
-![News Anchor UI](assets/demo.png)  
-> Articles are summarized, converted to voice, and presented interactively on a web dashboard.
-
----
-
 ## 🧠 Tech Stack
 
 | Layer | Tech Used |
@@ -71,6 +64,8 @@ docker run -p 8501:8501 news-anchor
 ```
 Then open: http://localhost:8501
 
+---
+
 ## 📁 Project Structure
 
 ├── app/
@@ -88,12 +83,16 @@ Then open: http://localhost:8501
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You’re reading it!
 
+---
+
 ## ⚙️ Customization
 
 You can tweak:
 * summarizer.py → change model (t5, bart, etc.)
 * tts_engine.py → try tts_models/en/ljspeech/tacotron2-DDC for different voices
 * streamlit_app.py → change theme, layout, or news categories
+
+---
 
 ## 📦 Deployment on EC2 (Optional)
 
@@ -109,6 +108,8 @@ Make sure to:
 * Open port 8501 in EC2 security group
 * Access via http://<ec2-public-ip>:8501
 
+---
+
 ## ❤️ Credits
 
 * LLM Summarizer: Hugging Face transformers
@@ -116,10 +117,14 @@ Make sure to:
 * Streamlit: https://streamlit.io
 * Voice Models: vits, tacotron2, fastspeech2
 
+---
+
 ## 📜 License
 
 This project is open-source under the MIT License.
 Feel free to use, share, and build on it!
+
+---
 
 ## 🤝 Contributions
 
