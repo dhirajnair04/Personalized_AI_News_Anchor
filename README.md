@@ -46,7 +46,7 @@ cd personalized-ai-news-anchor
 
 ### 🧪 2. (Option A) Run locally with Python
 
-Requires: Python 3.10+, espeak-ng, pip virtualenv
+> Requires: Python 3.10+, espeak-ng, pip virtualenv
 
 ```
 python -m venv venv
@@ -68,6 +68,7 @@ Then open: http://localhost:8501
 
 ## 📁 Project Structure
 
+```
 ├── app/
 │   ├── __init__.py
 │   ├── news_scraper.py         # Scrapes real news articles
@@ -82,6 +83,7 @@ Then open: http://localhost:8501
 ├── Dockerfile                  # For building Docker image
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You’re reading it!
+```
 
 ---
 
